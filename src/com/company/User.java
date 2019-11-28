@@ -4,6 +4,15 @@ public class User {
 
     private int id;
     private String name;
+    private String homePhone;
+
+    public String getHomePhone() {
+        return homePhone;
+    }
+
+    public void setHomePhone(String homePhone) {
+        this.homePhone = homePhone;
+    }
 
     private String email;
 
