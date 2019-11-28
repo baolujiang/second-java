@@ -1,10 +1,22 @@
 package com.company;
 
+import java.util.List;
+
 public class User {
 
     private int id;
     private String name;
     private String homePhone;
+
+    private List<String> emergencyContacts;
+
+    public List<String> getEmergencyContacts() {
+        return emergencyContacts;
+    }
+
+    public void setEmergencyContacts(List<String> emergencyContacts) {
+        this.emergencyContacts = emergencyContacts;
+    }
 
     public String getHomePhone() {
         return homePhone;
